@@ -16,4 +16,4 @@ I used 27 ohm resistors for current limits on each LED gang because that's what 
 
  
 
-Two switch the UV LEDs on, we use IRLB8721 N-chan MOSFETS on the low side of the ganged LEDs.  
+To switch the UV LEDs on, we use IRLB8721 N-chan MOSFETS on the low side of the ganged LEDs.  
