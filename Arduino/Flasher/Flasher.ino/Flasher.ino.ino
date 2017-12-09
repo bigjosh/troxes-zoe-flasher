@@ -62,6 +62,11 @@ void setup() {
   #endif
 
 
+  
+  ICR1 = 24197  ; 
+
+  OCR1A = 2650;
+
   pinMode( 9 , OUTPUT);   // Set the DDR for the OC1A oputput pin.
 
   // Use the adjcent analog pins to drive the two sides of the potentiometer becuase, well, they are right there!
@@ -76,7 +81,7 @@ void setup() {
 }
 
 void loop() {
-
+return;
   // Read -1.0 to +1.0 normalized values for the dial
   float freqDial = (analogRead( A4 ) -512)  /1023.0;
 
